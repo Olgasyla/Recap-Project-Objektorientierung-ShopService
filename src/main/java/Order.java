@@ -5,4 +5,8 @@ public record Order(
         List<Product> products,
         OrderStatus status
 ) {
+    public OrderStatus getStatus() {
+        return status;
+    }
+
 }
